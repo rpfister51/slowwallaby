@@ -13,12 +13,6 @@ module.exports = function (wallaby) {
           runner: 'node'
       },
 
-      workers: {
-        initial: 6,
-        regular: 2,
-        restart: true
-      },
-
       testFramework: 'jest',
       debug: true
     };
